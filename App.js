@@ -8,14 +8,18 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 const styles = StyleSheet.create({
   cart: {
-    backgroundColor: 'red',
+    backgroundColor: 'yellow',
     height: 70,
-    width: 60,
-    margin: 7,
+    width: 70,
+    margin: 2,
     borderColor: 'black',
     borderWidth: 4,
-    borderRadius: 50,
+    borderRadius: 20,
   },
+
+  btn: {
+    fontSize: 20,
+  }
 
 });
 
@@ -29,66 +33,52 @@ function HomeScreen({ navigation }) {
           <View style={{ flexDirection: 'row' }}>
 
             <View style={styles.cart}>
-              <Button
-                title="cart"
+              <Button style={styles.btn}
+                title="Gyro"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 4,
                   });
                 }}
               />
             </View>
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="Eggs"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 3,
                   });
                 }}
               />
             </View>
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title=""
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: '',
                   });
                 }}
               />
             </View>
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="cart4"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 2,
                   });
                 }}
               />
             </View>
             <View style={styles.cart}>
               <Button
-                title="cart"
-                onPress={() => {
-                  /* 1. Navigate to the Details route with params */
-                  navigation.navigate('Details', {
-                    cartId: 1,
-                  });
-                }}
-              />
-            </View>
-          </View>
-          <View style={{ flexDirection: 'row' }}>
-
-            <View style={styles.cart}>
-              <Button
-                title="cart"
+                title="cart5"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
@@ -102,11 +92,11 @@ function HomeScreen({ navigation }) {
 
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="KTaco"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 6,
                   });
                 }}
               />
@@ -116,11 +106,11 @@ function HomeScreen({ navigation }) {
 
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="kBAP"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 7,
                   });
                 }}
               />
@@ -130,11 +120,11 @@ function HomeScreen({ navigation }) {
 
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="Mexi"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 8,
                   });
                 }}
               />
@@ -144,11 +134,11 @@ function HomeScreen({ navigation }) {
 
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="Mexi"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 9,
                   });
                 }}
               />
@@ -158,11 +148,11 @@ function HomeScreen({ navigation }) {
 
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="Soup"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 10,
                   });
                 }}
               />
@@ -172,11 +162,11 @@ function HomeScreen({ navigation }) {
 
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="Thai"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 11,
                   });
                 }}
               />
@@ -186,11 +176,11 @@ function HomeScreen({ navigation }) {
 
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="Aloha"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 12,
                   });
                 }}
               />
@@ -200,11 +190,11 @@ function HomeScreen({ navigation }) {
 
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="Noah"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 13,
                   });
                 }}
               />
@@ -214,11 +204,11 @@ function HomeScreen({ navigation }) {
 
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="Thai"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 14,
                   });
                 }}
               />
@@ -228,11 +218,11 @@ function HomeScreen({ navigation }) {
 
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="Iraqi"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 15,
                   });
                 }}
               />
@@ -242,11 +232,11 @@ function HomeScreen({ navigation }) {
 
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="Mexi"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 16,
                   });
                 }}
               />
@@ -256,11 +246,11 @@ function HomeScreen({ navigation }) {
 
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="Babylon"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 17,
                   });
                 }}
               />
@@ -270,11 +260,11 @@ function HomeScreen({ navigation }) {
 
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="BBQ"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 18,
                   });
                 }}
               />
@@ -284,11 +274,11 @@ function HomeScreen({ navigation }) {
 
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="Thai"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 19,
                   });
                 }}
               />
@@ -298,11 +288,11 @@ function HomeScreen({ navigation }) {
 
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="Philly"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 20,
                   });
                 }}
               />
@@ -312,11 +302,11 @@ function HomeScreen({ navigation }) {
 
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="India"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 21,
                   });
                 }}
               />
@@ -324,71 +314,61 @@ function HomeScreen({ navigation }) {
           </View>
           <View style={{ flexDirection: 'row' }}>
 
-            <View style={styles.cart}>
-              <Button
-                title="cart"
-                onPress={() => {
-                  /* 1. Navigate to the Details route with params */
-                  navigation.navigate('Details', {
-                    cartId: 1,
-                  });
-                }}
-              />
-            </View>
-          </View>
-          <View style={{ flexDirection: 'row' }}>
+      
+
+       
 
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="Egypt"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 22,
                   });
                 }}
               />
             </View>
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="Panda"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 23,
                   });
                 }}
               />
             </View>
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title=""
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 24,
                   });
                 }}
               />
             </View>
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title="Heng"
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 24,
                   });
                 }}
               />
             </View>
             <View style={styles.cart}>
               <Button
-                title="cart"
+                title=""
                 onPress={() => {
                   /* 1. Navigate to the Details route with params */
                   navigation.navigate('Details', {
-                    cartId: 1,
+                    cartId: 25,
                   });
                 }}
               />
