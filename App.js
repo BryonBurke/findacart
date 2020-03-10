@@ -2,7 +2,7 @@
 // In App.js in a new project
 
 import * as React from 'react';
-import { Button, View, Text, Image, Dimensions } from 'react-native';
+import { Button, View, Text, Image } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
@@ -321,8 +321,8 @@ function DetailsScreen({ route, navigation }) {
         
         <Image
           style={{
-            height: height,
-            width: width  }}
+            height: 600,
+            width: 450  }}
           source={imagePath}
         />
       </View>
