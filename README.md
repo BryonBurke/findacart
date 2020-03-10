@@ -1,1 +1,2 @@
 start app
+start styling

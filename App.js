@@ -322,8 +322,8 @@ function DetailsScreen({ route, navigation }) {
         
         <Image
           style={{
-            height: deviceWidth * 0.8,
-            width: deviceWidth * 0.8  }}
+            height: 600,
+            width: 400  }}
           source={imagePath}
         />
       </View>
