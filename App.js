@@ -2,7 +2,7 @@
 // In App.js in a new project
 
 import * as React from 'react';
-import { Button, View, Text, Image } from 'react-native';
+import { Button, View, Text, Image, Dimensions } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
@@ -316,14 +316,13 @@ function DetailsScreen({ route, navigation }) {
  
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Details Screen</Text>
-      <Text>cart Id: {cartId}</Text>
+    
       <View>
         
         <Image
           style={{
-            height: 600,
-            width: 400  }}
+            height: height,
+            width: width  }}
           source={imagePath}
         />
       </View>
