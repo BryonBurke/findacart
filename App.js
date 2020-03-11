@@ -9,13 +9,13 @@ import MapView from 'react-native-maps';
 
 const styles = StyleSheet.create({
   cart: {
-    backgroundColor: 'yellow',
+    backgroundColor: 'white',
     height: 70,
     width: 70,
     margin: 2,
     borderColor: 'black',
-    borderWidth: 9,
-    borderRadius: 27,
+    borderWidth: 4,
+    borderRadius: 7,
   },
 
   btn: {
@@ -88,7 +88,7 @@ function HomeScreen({ route, navigation }) {
 
 function PodScreen({ route, navigation }) {
   return (
-    <View style={{ backgroundColor: 'red', flex: 1, justifyContent: 'center' }}>
+    <View style={{ backgroundColor: 'gray', flex: 1, justifyContent: 'center' }}>
       <ScrollView>
 
         <View style={{ flexDirection: 'row' }}>
