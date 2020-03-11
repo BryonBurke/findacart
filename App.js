@@ -23,9 +23,35 @@ const styles = StyleSheet.create({
 
 });
 
+function HomeScreen({ route, navigation }) {
+  /* 2. Get the param */
 
 
-function HomeScreen({ navigation }) {
+
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+
+      <View>
+        <Button
+          title="Pod"
+          onPress={() => {
+            /* 1. Navigate to the Pod route with params */
+            navigation.navigate('Pod', {
+              cartId: 25,
+            });
+          }}
+        />
+      </View>
+
+    </View>
+
+    
+  );
+}
+
+
+
+function PodScreen({ route, navigation }) {
   return (
     <View style={{ backgroundColor: 'red', flex: 1, justifyContent: 'center' }}>
       <ScrollView>
@@ -380,8 +406,16 @@ function HomeScreen({ navigation }) {
   );
 }
 
+
+
+
+
+
+
+
 function DetailsScreen({ route, navigation }) {
   /* 2. Get the param */
+
   let { cartId } = route.params;
   console.log(cartId);
   let imagePath;
@@ -457,6 +491,7 @@ function DetailsScreen({ route, navigation }) {
   else if (cartId === 24) {
     imagePath = require("./assets/images/cartpic24.jpeg");
   }
+  
 
 
   return (
@@ -484,7 +519,9 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Pod" component={HomeScreen} />
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Pod" component={PodScreen} />
+
         <Stack.Screen name="Details" component={DetailsScreen} />
       </Stack.Navigator>
     </NavigationContainer>
