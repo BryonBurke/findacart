@@ -26,10 +26,35 @@ Make a pod creation tool so user can make their own pod
 Deploy ios and android mobile apps to their respective stores
 Connect cart pics into a gallery. User navigates to cart on left or right and on return to pod map is shown a marker of the last cart they looked at.
 Links to carts social media
+
 What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 
-Android Studio
-Dev license for app stores. I currently have a license for Android Store
-Is there anything else you'd like your instructor to know?
+1. Android Studio
+2. Xcode
+3. Dev license for app stores. I currently have a license for Android Store
 
-I have some experience with both xcode and android studio. 
+Setup/Installation Requirements: 
+
+Expo app required.
+
+1. clone and open the file locally in terminal run: $git clone https://github.com/BryonBurke/findacart
+
+In terminal: 
+1. change directory to findacart folder. 
+2. enter: yarn start
+3. If xcode or android studio is installed, follow instructions on terminal to display app on simulator.
+4. To display on iphone, open camera app and point at graphic on terminal to open app on Expo
+
+Known Bugs No known bugs
+
+Support and contact details _If you have any issues with the program or want to reach out, email bryonparis@gmail.com
+
+Technologies Used This program utilized:
+
+Javascript and React and was built on JS code.
+
+Licensed under MIT license
+
+Copyright (c) 2020 Bryon Burke
+
+
