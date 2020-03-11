@@ -9,7 +9,7 @@ import MapView from 'react-native-maps';
 
 const styles = StyleSheet.create({
   cart: {
-    backgroundColor: 'white',
+    backgroundColor: 'yellow',
     height: 70,
     width: 70,
     margin: 2,
