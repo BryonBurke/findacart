@@ -13,12 +13,12 @@ const styles = StyleSheet.create({
     width: 70,
     margin: 2,
     borderColor: 'black',
-    borderWidth: 4,
-    borderRadius: 20,
+    borderWidth: 9,
+    borderRadius: 27,
   },
 
   btn: {
-    fontSize: 20,
+    fontFamily: 'Roboto',
   }
 
 });
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
 
 function HomeScreen({ navigation }) {
   return (
-    <View style={{ flex: 1, justifyContent: 'center' }}>
+    <View style={{ backgroundColor: 'red', flex: 1, justifyContent: 'center' }}>
       <ScrollView>
        
           <View style={{ flexDirection: 'row' }}>
@@ -484,7 +484,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Pod" component={HomeScreen} />
         <Stack.Screen name="Details" component={DetailsScreen} />
       </Stack.Navigator>
     </NavigationContainer>
