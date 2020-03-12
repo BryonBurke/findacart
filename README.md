@@ -23,11 +23,11 @@ Leaflet or other suitable map resource (This requirement met by react native map
 
 If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 
-Make android app with Android Studio
-Make a pod creation tool so user can make their own pod
-Deploy ios and android mobile apps to their respective stores
+Make android app with Android Studio.
+Make a pod creation tool so user can make their own pod.
+Deploy ios and android mobile apps to their respective stores.
 Connect cart pics into a gallery. User navigates to cart on left or right and on return to pod map is shown a marker of the last cart they looked at.
-Links to carts social media
+Links to carts social media.
 
 What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 
