@@ -558,7 +558,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Click pin to go to cart pod" component={HomeScreen} />
+        <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Pod" component={PodScreen} />
 
         <Stack.Screen name="Details" component={DetailsScreen} />
