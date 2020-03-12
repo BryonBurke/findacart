@@ -43,7 +43,7 @@ Expo required to be installed.
 
 In terminal: 
 1. change directory to findacart folder. 
-2. enter: expo start or yarn start
+2. enter: expo start or yarn start.
 3. If xcode or android studio is installed, follow instructions on terminal to display app on simulator.
 4. To display on iphone, open camera app and point at graphic on terminal to open app on Expo
 
