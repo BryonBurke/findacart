@@ -54,8 +54,6 @@ function HomeScreen({ route, navigation }) {
               latitude: 45.521118,
               longitude: -122.676129
             }}
-            title={"title"}
-            description={"description"}
             onPress={() => {
               /* 1. Navigate to the Pod route with params */
               navigation.navigate('Pod', {
@@ -452,7 +450,7 @@ function DetailsScreen({ route, navigation }) {
   /* 2. Get the param */
 
   let { cartId } = route.params;
-  console.log(cartId);
+  
   let imagePath;
   if (cartId === 1) {
     imagePath = require("./assets/images/cartpic1.jpeg");

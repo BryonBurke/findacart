@@ -39,7 +39,7 @@ Setup/Installation Requirements:
 
 Expo app required.
 
-1. clone and open the file locally in terminal run: $git clone https://github.com/BryonBurke/findacart
+1. clone and open the file locally in terminal, then run: $git clone https://github.com/BryonBurke/findacart
 
 In terminal: 
 1. change directory to findacart folder. 
