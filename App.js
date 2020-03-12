@@ -89,6 +89,10 @@ function PodScreen({ route, navigation }) {
     <View style={{ backgroundColor: 'gray', flex: 1, justifyContent: 'center' }}>
       <ScrollView>
 
+        <View>
+          <Text>This page will scroll up/down</Text>
+        </View>
+
         <View style={{ flexDirection: 'row' }}>
 
           <View style={styles.cart}>
@@ -532,6 +536,8 @@ function DetailsScreen({ route, navigation }) {
 
       <View>
 
+
+
         <Image
           style={{
             height: 600,
@@ -552,7 +558,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Click pin to go to cart pod" component={HomeScreen} />
         <Stack.Screen name="Pod" component={PodScreen} />
 
         <Stack.Screen name="Details" component={DetailsScreen} />
