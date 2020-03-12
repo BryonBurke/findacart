@@ -90,7 +90,7 @@ function PodScreen({ route, navigation }) {
       <ScrollView>
 
         <View>
-          <Text>This page will scroll up/down</Text>
+          <Text>This page will scroll up/down. Click cart for pic</Text>
         </View>
 
         <View style={{ flexDirection: 'row' }}>
