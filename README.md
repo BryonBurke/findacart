@@ -37,7 +37,7 @@ What additional tools, frameworks, libraries, APIs, or other resources will thes
 
 Setup/Installation Requirements: 
 
-Expo app required.
+Expo required to be installed.
 
 1. clone and open the file locally in terminal, then run: $git clone https://github.com/BryonBurke/findacart
 
