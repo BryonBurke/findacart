@@ -19,7 +19,7 @@ React native
 Custom rails api I will make
 Redux (?)
 Xcode for front end
-Leaflet or other suitable map resource
+Leaflet or other suitable map resource (This requirement met by react native maps)
 
 If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 
