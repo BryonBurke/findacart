@@ -33,7 +33,7 @@ What additional tools, frameworks, libraries, APIs, or other resources will thes
 
 1. Android Studio
 2. Xcode
-3. Dev license for app stores. I currently have a license for Android Store. These are not immediately needed as project is on Expo.
+3. Dev license for app stores. I currently have a license for Android Store, need one for Apple. These are not immediately needed as project is on Expo.
 
 Setup/Installation Requirements: 
 
